@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+    int num;
+
+    printf("Digite um numero inteiro: ");
+    scanf("%d", &num);
+
+    if (num % 3 == 0) {
+        num++; // incremento
+        printf("O numero era multiplo de 3. Depois do incremento: %d\n", num);
+    } else {
+        num--; // decremento
+        printf("O numero NAO era multiplo de 3. Depois do decremento: %d\n", num);
+    }
+
+    return 0;
+}
